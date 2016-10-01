@@ -23,3 +23,5 @@ Jni demo
 
         // All supported ndk config in HERE: https://android.googlesource.com/platform/tools/build/+/c4f572d8dd9664c63a04f48a99b79acfb9513de9/gradle/src/main/groovy/com/android/build/gradle/internal/dsl/NdkConfigDsl.java
       }
+    - Add the following info to gradle.properties 
+      android.useDeprecatedNdk=true
