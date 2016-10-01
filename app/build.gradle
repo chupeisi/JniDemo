@@ -12,6 +12,9 @@ android {
         ndk{
             moduleName "JniLibName"         //生成的so名字
             abiFilters "armeabi", "armeabi-v7a", "x86"  //输出指定三种abi体系结构下的so库。
+            //cFlags "-DANDROID_NDK -D_DEBUG DNULL=0"
+            //ldLibs "EGL", "GLESv3", "dl", "log"
+            //stl "stlport_shared"
         }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
